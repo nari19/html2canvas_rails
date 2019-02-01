@@ -1,11 +1,22 @@
 # README
 
+#URL
+Rails 環境構築
+- https://qiita.com/narikei/items/cd029911597cdc71c516
+- https://qiita.com/TAByasu/items/47c6cfbeeafad39eda07
+
+Mysqlセットアップ
+- https://qiita.com/itooww/items/13055c8bb1d226ee5844
+
+
 # command
 ```
 $mysql.server start
 $mysql.server stop
 $bundle exec rails s
 ```
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
@@ -28,3 +39,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+| - | - |
+|test1||
+|test2||
