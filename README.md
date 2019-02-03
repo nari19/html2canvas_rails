@@ -42,7 +42,6 @@ Things you may want to cover:
 
 * ...
 
-
 | - | - |
 |test1|初期状態|
 |test3|一番小さなRailsアプリ http://igarashikuniaki.net/rails_textbook/smallest-app.html|
