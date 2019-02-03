@@ -42,4 +42,4 @@ Things you may want to cover:
 
 
 | - | - |
-|test1||
+|test1|初期状態|
