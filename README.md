@@ -14,6 +14,8 @@ Mysqlセットアップ
 $mysql.server start
 $mysql.server stop
 $bundle exec rails s
+
+$rails g controller hello index
 ```
 
 
@@ -43,3 +45,4 @@ Things you may want to cover:
 
 | - | - |
 |test1|初期状態|
+|test3|一番小さなRailsアプリ http://igarashikuniaki.net/rails_textbook/smallest-app.html|
