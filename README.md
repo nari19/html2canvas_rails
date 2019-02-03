@@ -14,6 +14,9 @@ Mysqlセットアップ
 $mysql.server start
 $mysql.server stop
 $bundle exec rails s
+
+$bundle exec rails generate model Task:string
+$rails db:migrate
 ```
 
 
@@ -40,6 +43,8 @@ Things you may want to cover:
 
 * ...
 
+### branch
 
 | - | - |
 |test1|初期状態|
+|test2|練習 タスク管理アプリ https://reasonable-code.com/rails-todo/|
