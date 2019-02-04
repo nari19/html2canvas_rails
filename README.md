@@ -43,4 +43,5 @@ Things you may want to cover:
 
 | - | - |
 |test1|初期状態|
+|test2|練習 タスク管理アプリ https://reasonable-code.com/rails-todo/|
 |test3|一番小さなRailsアプリ http://igarashikuniaki.net/rails_textbook/smallest-app.html|
