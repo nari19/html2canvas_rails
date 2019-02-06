@@ -14,6 +14,9 @@ Mysqlセットアップ
 $mysql.server start
 $mysql.server stop
 $bundle exec rails s
+
+$bundle exec rails generate model Task:string
+$rails db:migrate
 ```
 
 
@@ -37,8 +40,6 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
 
 |||
 | - | - |
