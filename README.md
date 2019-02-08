@@ -41,10 +41,16 @@ Things you may want to cover:
 
 * Deployment instructions
 
-|||
+|Branch|Detail|
 | - | - |
 |test1|初期状態|
 |test2|練習 タスク管理アプリ https://reasonable-code.com/rails-todo/|
-|test3|一番小さなRailsアプリ http://igarashikuniaki.net/rails_textbook/smallest-app.html|
-|test4|scaffold機能によるRails開発の基礎 http://natsuking.hatenablog.com/entry/2018/04/01/015336 |
+|   (test3)|一番小さなRailsアプリ http://igarashikuniaki.net/rails_textbook/smallest-app.html|
+|   (test4)|scaffold機能によるRails開発の基礎 http://natsuking.hatenablog.com/entry/2018/04/01/015336 |
 |     | http://natsuking.hatenablog.com/entry/2018/04/03/012146 |
+|test2=>test5|Bootstrap導入 https://qiita.com/Matteneko3/items/4dae9e55054e4a4affb4 |
+
+
+url
+- [rails html2canvas](https://qiita.com/tonishi/items/91ad735c9fac6e77fd22)
+- [ruby基礎文法](https://qiita.com/Fendo181/items/eb2cb17f32d99aa01f59)
