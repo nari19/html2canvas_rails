@@ -50,6 +50,7 @@ Things you may want to cover:
 |     | http://natsuking.hatenablog.com/entry/2018/04/03/012146 |
 |test2=>test5|Bootstrap導入 https://qiita.com/Matteneko3/items/4dae9e55054e4a4affb4 |
 |test6|html2canvas 導入|
+|     | https://hinanaoblog.xyz/?p=434 |
 
 
 url

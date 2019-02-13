@@ -1,25 +1,24 @@
 <h1>タスク一覧</h1>
-<table>
-    <thead>
-    <tr>
-      <th>タスク名</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @tasks.each do |task| %>
-        <tr>
-            <td><%= task.title %></td>
-            <td><%= link_to '編集', edit_task_path(task) %></td>
-            <td><%= link_to '削除', task_path(task), method: :delete %></td>
-        </tr>
-    <% end %>
-  </tbody>
-<table>
+<div id="target">
+  <table>
+      <thead>
+      <tr>
+        <th>タスク名</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @tasks.each do |task| %>
+          <tr>
+              <td><%= task.title %></td>
+              <td><%= link_to '編集', edit_task_path(task) %></td>
+              <td><%= link_to '削除', task_path(task), method: :delete %></td>
+          </tr>
+      <% end %>
+    </tbody>
+  <table>
+</div>
 <%= link_to '追加', new_task_path %>
 
-<!-- <br>
-<a class="btn btn-primary" href="#" role="button">Link</a>
-<button class="btn btn-primary" type="submit">Button</button>
-<input class="btn btn-primary" type="button" value="Input">
-<input class="btn btn-primary" type="submit" value="Submit">
-<input class="btn btn-primary" type="reset" value="Reset"> -->
+<br>
+<input id="downloadImageButton" class="btn btn-primary" type="button" value="画像保存" onclick="getDisplayImage();" >
+<a id="getImage" href=""  style="display:none;"  download="image.png">画像保存</a>
