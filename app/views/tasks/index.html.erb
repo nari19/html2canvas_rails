@@ -1,4 +1,6 @@
-<h1>タスク一覧</h1>
+
+<h1>html2canvas_rails_app</h1>
+
 <div id="target">
   <table>
       <thead>
@@ -15,10 +17,12 @@
           </tr>
       <% end %>
     </tbody>
-  <table>
+  </table>
+  <%= link_to '追加', new_task_path %>
 </div>
-<%= link_to '追加', new_task_path %>
 
-<br>
-<input id="downloadImageButton" class="btn btn-primary" type="button" value="画像保存" onclick="getDisplayImage();" >
-<a id="getImage" href=""  style="display:none;"  download="image.png">画像保存</a>
+
+<div id="take_picture">
+  <input id="downloadImageButton" type="button" class="btn btn-primary" value="画像保存" onclick="getDisplayImage();" >
+  <a id="getImage" href=""  style="display:none;"  download="image.png">画像保存</a>
+</div>
