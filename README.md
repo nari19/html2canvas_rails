@@ -51,7 +51,7 @@ Things you may want to cover:
 |test2=>test5|Bootstrap導入 https://qiita.com/Matteneko3/items/4dae9e55054e4a4affb4 |
 |test6|html2canvas 導入|
 |     | https://hinanaoblog.xyz/?p=434 |
-|test7||
+|test7|css|
 
 
 url
