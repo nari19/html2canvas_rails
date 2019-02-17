@@ -52,13 +52,9 @@ Things you may want to cover:
 |test6|html2canvas 導入|
 |     | https://hinanaoblog.xyz/?p=434 |
 |test7|css|
+|test8||
 
 
 url
 - [rails html2canvas](https://qiita.com/tonishi/items/91ad735c9fac6e77fd22)
 - [ruby 基礎文法](https://qiita.com/Fendo181/items/eb2cb17f32d99aa01f59)
-
-
-  # gem 'bootsnap', '>= 1.1.0', require: false
-
- *= require_tree .
