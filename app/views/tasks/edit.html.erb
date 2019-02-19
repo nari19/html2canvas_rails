@@ -1,8 +1,15 @@
-<h1>タスク編集</h1>
-<%= %>
-<%= form_for(@task) do |f| %>
-    <div><%= f.label :title %></div>
-    <div><%= f.text_field :title %></div>
-    <div><%= f.submit %></div>
-<% end %>
-<% link_to '戻る', tasks_path %>
+<div id="target">
+    <h1>タスク編集</h1>
+    <%= form_for(@task) do |f| %>
+        <div><%= f.label :title %></div>
+        <div><%= f.text_field :title %></div>
+        <div><%= f.submit %></div>
+    <% end %>
+    <% link_to '戻る', tasks_path %>
+
+</div>
+          
+<div id="downloadImageButton" class="btn btn-primary btn-lg" onclick="getDisplayImage();" >Sava image</div>
+<a id="getImage" href=""  style="display:none;"  download="image.png">画像保存</a>
+    
+          
