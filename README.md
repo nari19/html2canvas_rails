@@ -52,7 +52,7 @@ Things you may want to cover:
 |test6|html2canvas 導入|
 |     | https://hinanaoblog.xyz/?p=434 |
 |test7|css|
-|test8|root設定|
+|test8|root設定, gemファイルをheroku用に修正(データベース等)|
 
 
 url
