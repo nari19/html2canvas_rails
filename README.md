@@ -17,6 +17,7 @@ $bundle exec rails s
 
 $bundle exec rails generate model Task:string
 $rails db:migrate
+$git push heroku master   =>省略var git push heroku
 ```
 
 
