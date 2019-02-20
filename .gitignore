@@ -29,3 +29,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Checking in `vendor/bundle` is not supported.
+/vendor/bundle
